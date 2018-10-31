@@ -1,0 +1,232 @@
+
+
+html {
+  background-color: rgb(227, 228, 226);
+  font-size: 62.5%;
+  font-family: 'Roboto Slab', serif;
+}
+body {
+  width: 100%;
+  max-width: 375px;
+  height: 100%;
+  background-color: white;
+  margin: 0 auto;
+
+  margin-bottom: 2%;
+  border-radius: 5px;
+}
+
+.header{
+  width: 100%;
+  max-width: 375px;
+  height: 100%;
+  max-height: 40px;
+  background-color: black;
+  color: white;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  position: fixed;
+  padding-bottom: 10px;
+}
+
+
+        /* Style The Dropdown Button */
+.dropbtn .dropdown .dropdown-content a a:hover .dropdown:hover .dropbtn {
+  z-index: 1000;
+}
+
+      .dropbtn {
+          background-color: black;
+          color: white;
+          padding: 14px;
+          font-size: 16px;
+          border: none;
+          cursor: pointer;
+          margin: 0 0 0 333.5px;
+          border-top-right-radius: 4px;
+          color: white;
+          outline: none;
+          height: 50px;
+
+
+      }
+
+      /* The container <div> - needed to position the dropdown content */
+      .dropdown {
+          position: relative;
+          display: inline-block;
+
+          text-align: center;
+          font-size: 2rem;
+
+      }
+
+      /* Dropdown Content (Hidden by Default) */
+      .dropdown-content {
+          display: none;
+          position: relative;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+          color: black;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+
+          border: 1px solid black;
+      }
+
+      /* Change color of dropdown links on hover */
+      .dropdown-content a:hover {background-color: #f1f1f1; overflow: hidden;}
+
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+          display: block;
+
+      }
+
+      /* Change the background color of the dropdown button when the dropdown content is shown */
+      .dropdown:hover .dropbtn {
+          background-color: black; color: white;;
+      }
+
+
+.logo {
+  width: 100%;
+  max-width: 40%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 13%;
+  border-radius: 16.5px;
+
+}
+
+.firstButton {
+  display: flex;
+  margin: 0 auto;
+  height: 35px;
+  width: 105px;
+  margin-top: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  outline: none;
+}
+ a { text-decoration: none }
+
+.firstButton:hover {
+  background-color: rgb(227, 228, 226)
+}
+
+.firstParagraph{
+  margin: 0 auto;
+  margin-top: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  font-size: 1.45rem;
+}
+
+.pheader{
+  font-size: 2rem;
+}
+.header2{
+  font-size: 2rem;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.secondParagraph{
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  font-size: 1.45rem;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.party{
+  height: auto;
+  width: auto;
+  max-width: 100%%;
+  /*max-height: 500px;*/
+  width: 150px;
+  height: 350px;
+  object-fit: none;
+  flex-direction: column-reverse;
+  display: flex;
+  margin-top: 5%;
+}
+.images{
+  padding-top: 10px;
+  margin-top: 10px
+}
+
+.mapouter{
+
+  text-align:right;
+  height:300px;
+  width:100%;
+  max-width: 375px;
+  border-radius: 5px;
+  margin: 0 auto;
+
+
+}
+.gmap_canvas{
+
+  overflow:hidden;
+  background:none !important;
+  height:100%;
+  width: 100%;
+  max-width: 375px;
+  max-height: 300px;
+  border-radius: 5px;
+
+
+}
+
+iframe .gmap_canvas .mapouter {
+  border-radius: 2%;
+}
+
+.giphy{
+  margin-top: 2%;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.giphy-embed {
+  border-radius: 5px;
+}
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+.fa {
+  display: flex !important;
+  flex-direction: row;
+  padding: 5px;
+}
+.lastPara {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.socialMedia a:nth-child(n+1):nth-child(-n+5){
+  color: black;
+  text-decoration: none;
+  justify-content: space-between;
+}
