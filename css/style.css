@@ -42,7 +42,7 @@ body {
           font-size: 16px;
           border: none;
           cursor: pointer;
-          margin: 0 0 0 333.5px;
+          margin: 0 0 0 330.5px;
           border-top-right-radius: 4px;
           color: white;
           outline: none;
@@ -99,11 +99,12 @@ body {
 
 .logo {
   width: 100%;
-  max-width: 40%;
+  max-width: 100%;
+  height: 260px;
   display: flex;
   margin: 0 auto;
   padding-top: 13%;
-  border-radius: 16.5px;
+  border-radius: 0;
 
 }
 
@@ -111,7 +112,7 @@ body {
   display: flex;
   margin: 0 auto;
   height: 35px;
-  width: 105px;
+  width: 110px;
   margin-top: 10px;
   border-radius: 5px;
   justify-content: center;
@@ -130,6 +131,9 @@ body {
   flex-wrap: wrap;
   width: 90%;
   font-size: 1.45rem;
+}
+.nycimg {
+  display: none;
 }
 
 .pheader{
@@ -164,10 +168,11 @@ body {
   flex-direction: column-reverse;
   display: flex;
   margin-top: 5%;
+  border-radius: 5px;
 }
 .images{
   padding-top: 10px;
-  margin-top: 10px
+  margin-top: 10px;
 }
 
 .mapouter{
@@ -229,4 +234,241 @@ iframe .gmap_canvas .mapouter {
   color: black;
   text-decoration: none;
   justify-content: space-between;
+}
+
+.giphy {
+  width: 100%;
+}
+.socialMedia {
+  justify-content: space-around;
+  width: 100%
+}
+.logos {
+  width: 50px;
+  height: 50px;
+}
+
+@media (min-width: 800px) {
+  body{
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    max-width: 850px;
+    z-index: 100;
+  }
+  .dropbtn {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 0 0 790px;
+  }
+  .dropdown-content {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 0 0 72%;
+    z-index: 100 !important;
+  }
+  .dropdown-content a:nth-child(1){
+    border-top-left-radius: 5px;
+  }
+  .dropdown-content a:nth-child(3){
+    border-bottom-left-radius: 5px;
+  }
+  .logo {
+    width: 100%;
+    max-width: 850px;
+    height: 100%;
+    max-height: 550px;
+    padding-top: 5%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .firstButton {
+    width: 125px;
+    height: 45px;
+    margin-top: 40px;
+    font-size: 1.25rem;
+  }
+  .firstParagraph {
+    margin-top: 3%;
+  }
+  .party {
+    width: 100%;
+    max-width: 350px;
+  }
+  .nycimg{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 850px;
+    height: 250px;
+    margin-top: 3%;
+    border-radius: 5px;
+  }
+  .party{
+    border-radius: 5px;
+  }
+
+
+
+  iframe#gmap_canvas{
+    margin: 0px 0px 0px -287px;
+    position: absolute;
+    width: 100%;
+    max-width: 763px;
+    border-radius: 5px;
+    z-index: 0
+
+  }
+  .mapouter {
+    width: 100% !important;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    z-index: 0;
+  }
+.secondParagraph {
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 1.45rem;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+  }
+  .secondParagraph p{
+    margin: 0 0 0 0;
+  }
+  .giphy {
+    width: 100%;
+  }
+  .socialMedia {
+    justify-content: space-around;
+  }
+  .logos{
+    width: 50px;
+    height: 50px;
+  }
+
+    }
+@media (min-width: 1000px){
+  body{
+  width: 100%;
+  max-width: 1400px;
+  height: 100%;
+  margin: 0 auto;
+  }
+  .header {
+    width: 100%;
+    max-width: 1400px;
+    z-index: 100;
+    margin: 0 auto;
+  }
+  .dropbtn {
+    display: block;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0 0 0 1330px
+
+  }
+  .dropdown-content {
+    width: 100%;
+    max-width: 290px;
+    margin: 0 0 0 80%;
+    z-index: 100 !important;
+  }
+  .dropdown-content a:nth-child(1){
+    border-top-left-radius: 5px;
+  }
+  .dropdown-content a:nth-child(3){
+    border-bottom-left-radius: 5px;
+  }
+  .logo {
+    width: 100%;
+    max-width: 1400px;
+    height: 100%;
+    max-height: 550px;
+    padding-top: 3%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .firstButton {
+    width: 125px;
+    height: 45px;
+    margin-top: 40px;
+    font-size: 1.25rem;
+  }
+  .firstParagraph {
+    margin-top: 3%;
+  }
+  .party {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+  }
+  .nycimg{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    height: 250px;
+    margin-top: 3%;
+    border-radius: 5px;
+  }
+
+
+
+
+  iframe#gmap_canvas{
+      /* margin: 0px 0px 0px -520px; */
+      margin: 0 auto;
+      position: absolute;
+      width: 100%;
+      max-width: 1263px;
+      border-radius: 5px;
+      z-index: 0;
+  }
+  .mapouter {
+    width: 100% !important;
+    max-width: 1263px;
+    margin: 0 auto;
+    margin-top: 30px;
+    z-index: 0;
+    border-radius: 5px;
+  }
+
+
+.secondParagraph {
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    font-size: 1.45rem;
+    justify-content: center;
+    position: relative;
+    z-index: 0;
+  }
+  .secondParagraph p{
+    margin: 0 0 0 0;
+  }
+  .giphy {
+    width: 100%;
+  }
+  .socialMedia {
+    justify-content: space-around;
+  }
+  .logos{
+    width: 50px;
+    height: 50px;
+  }
+
+
 }
